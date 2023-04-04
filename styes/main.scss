@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
+}
+.text-second {
+    color: orange;
+    background-color: #d0d0d0;
+}
+%my-styles {
+    border: 1px dotted black;
+    box-shadow: 0 0 15px #f0f0f0
+}
+
+@mixin btnCretor($br, $w, $lh){
+    border-radius: $br;
+    width: $w;
+    line-height: $lh;
+}
+
+.button1 {
+    font-size: 15px;
+    @include btnCretor(6px, 100px, 45px);
+
+}
+.button2 {
+font-size: 15px;
+@include btnCretor(6px, 100px,45px )
+}
+.button3 {
+font-size: 15px;
+}
+p {
+    @extend .text;
+    @extend .text-second;
+    @extend %my-styles;
+    
+}

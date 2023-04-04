@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.text, p {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: italic; }
+
+.text-second, p {
+  color: orange;
+  background-color: #d0d0d0; }
+
+p {
+  border: 1px dotted black;
+  box-shadow: 0 0 15px #f0f0f0; }
+
+.button1 {
+  font-size: 15px;
+  border-radius: 6px;
+  width: 100px;
+  line-height: 45px; }
+
+.button2 {
+  font-size: 15px;
+  border-radius: 6px;
+  width: 100px;
+  line-height: 45px; }
+
+.button3 {
+  font-size: 15px; }
+
+/*# sourceMappingURL=main.css.map */
